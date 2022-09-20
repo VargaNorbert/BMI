@@ -4,8 +4,6 @@ function katt(){
 
     document.getElementById('index').innerHTML = szam;
 
-    let szin= '#f3953e';
-
     if(szam<parseFloat(18,5)){
         document.getElementById('elso').style.backgroundColor= '#f3953e';
         document.getElementById('masodik').style.backgroundColor= 'white';
