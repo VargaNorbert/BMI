@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI</title>
+    <link rel="stylesheet" href="stilus.css">
 </head>
 <body>
-    WORKING....
+
+
+    <div id="felso">
+
+        <table>
+            <tr>
+                <td>Írja be cm-ben számított testmagasságát (cipő nélkül mérve):</td>
+                <td id="jobbra"><input type="number" id="magassag"> cm</td>
+            </tr>
+            <tr>
+                <td>Írja be kg-ban számított testsúlyát (cipő nélkül mérve):</td>
+                <td id="jobbra"><input type="number" id="suly"> kg</td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="gomb" onclick="katt" >Számítás</button></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div id="kozep">
+        <h2> <b>Az ön BMI indexe:</b>  </h2>
+
+
+    </div>
+
+    <div id="also">
+        <h2> <b>Az ideális testtömege:</b> </h2>
+    </div>
+
+
+
+    <script href="main.js"></script>
 </body>
 </html>
