@@ -1,0 +1,76 @@
+body{
+    width: 700px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#felso{
+background-color: #f3953e;
+
+color: white;
+padding: 3%;
+}
+
+input{
+    width: 70px;
+    height: 18px;
+}
+
+#jobbra{
+    padding-left: 150px;
+}
+
+#felsotabla{
+   height: 40px;
+}
+
+button{
+    color: #f3953e;
+    background-color: white;
+    font-size: 15px;
+    border: 0;
+    height: 25px;
+    margin-top: 15px;
+
+}
+
+h2{
+    color: #f3953e;
+}
+
+#kozeptabla{
+    margin: 30px;
+    font-size: 18px;
+    margin: auto;
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+.vonal{
+    border-bottom: 0.5px solid black;
+    height: 60px;
+}
+
+.center{
+    text-align: center;
+    width: 190px;
+}
+
+span{
+    font-style: italic;
+    font-weight: normal;
+}
+
+#szin{
+    color: #f3953e;
+    font-weight: bold;
+}
+
+#font{
+    font-size: 20px;
+}
