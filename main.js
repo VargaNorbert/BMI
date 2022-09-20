@@ -4,6 +4,11 @@ function katt(){
 
     document.getElementById('index').innerHTML = szam;
 
+    let szam2='60-65'
+
+    document.getElementById('szelso').innerHTML = szam2;
+    document.getElementById('index2').innerHTML = szam;
+
     if(szam<parseFloat(18,5)){
         document.getElementById('elso').style.backgroundColor= '#f3953e';
         document.getElementById('masodik').style.backgroundColor= 'white';
