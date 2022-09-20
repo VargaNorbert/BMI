@@ -5,8 +5,8 @@ function katt(){
     document.getElementById('index').innerHTML = szam;
 
 
-    document.getElementById('szelso').innerHTML = 'X kg';
-    document.getElementById('index2').innerHTML = 'X-Y kg';
+    document.getElementById('szelso').innerHTML = 'X-Y kg' ;
+    document.getElementById('index2').innerHTML = 'X kg';
 
     if(szam<parseFloat(18,5)){
         document.getElementById('elso').style.backgroundColor= '#f3953e';
