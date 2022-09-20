@@ -22,7 +22,7 @@ input{
     padding-left: 150px;
 }
 
-tr{
+#felsotabla{
    height: 40px;
 }
 
@@ -38,4 +38,25 @@ button{
 
 h2{
     color: #f3953e;
+}
+
+#kozeptabla{
+    margin: 30px;
+    font-size: 18px;
+    margin: auto;
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+.vonal{
+    border-bottom: 1px solid black;
+    height: 60px;
+}
+
+.center{
+    text-align: center;
+    width: 190px;
 }

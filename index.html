@@ -13,23 +13,51 @@
     <div id="felso">
 
         <table>
-            <tr>
+            <tr id="felsotabla">
                 <td>Írja be cm-ben számított testmagasságát (cipő nélkül mérve):</td>
                 <td id="jobbra"><input type="number" id="magassag"> cm</td>
             </tr>
-            <tr>
+            <tr id="felsotabla" >
                 <td>Írja be kg-ban számított testsúlyát (cipő nélkül mérve):</td>
                 <td id="jobbra"><input type="number" id="suly"> kg</td>
             </tr>
-            <tr>
-                <td colspan="2"><button id="gomb" onclick="katt" >Számítás</button></td>
+            <tr id="felsotabla">
+                <td colspan="2"><button id="gomb">Számítás</button></td>
             </tr>
         </table>
 
     </div>
 
     <div id="kozep">
-        <h2> <b>Az ön BMI indexe:</b>  </h2>
+        <h2> <b>Az ön BMI indexe:</b> <span id="index">0</span>  </h2>
+
+        <table id="kozeptabla">
+            <tr class="vonal">
+                <td class="center"><b>18,5 vagy kevesebb</b></td>
+                <td>SOVÁNY</td>
+            </tr>
+            <tr class="vonal">
+                <td class="center"><b>18,8-24,9</b> </td>
+                <td>NORMÁL</td>
+        
+            </tr>
+            <tr class="vonal">
+                <td class="center"> <b>25-29,9</b> </td>
+                <td>TÚLSÚLY</td>
+            </tr>
+            <tr class="vonal">
+                <td class="center"> <b>30-34,9</b> </td>
+                <td>I.FOKÚ ELHÍZÁS</td>
+            </tr>
+            <tr class="vonal">
+                <td class="center"> <b>35-39,9</b> </td>
+                <td>II.FOKÚ ELHÍZÁS</td>
+            </tr>
+            <tr class="vonal">
+                <td class="center"> <b>40 vagy több</b> </td>
+                <td>III.FOKÚ ELHÍZÁS</td>
+            </tr>
+        </table>
 
 
     </div>
@@ -40,6 +68,6 @@
 
 
 
-    <script href="main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
