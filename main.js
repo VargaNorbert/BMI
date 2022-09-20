@@ -1,13 +1,12 @@
 function katt(){
 
-    let szam=parseFloat( document.getElementById('suly').value / (document.getElementById('magassag').value/100)**2).toFixed(2);
+    let szam=parseFloat( document.getElementById('suly').value / (document.getElementById('magassag').value/100)**2).toFixed(1);
 
     document.getElementById('index').innerHTML = szam;
 
-    let szam2='60-65'
 
-    document.getElementById('szelso').innerHTML = szam2;
-    document.getElementById('index2').innerHTML = szam;
+    document.getElementById('szelso').innerHTML = 'X kg';
+    document.getElementById('index2').innerHTML = 'X-Y kg';
 
     if(szam<parseFloat(18,5)){
         document.getElementById('elso').style.backgroundColor= '#f3953e';
