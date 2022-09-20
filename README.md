@@ -1,4 +1,4 @@
-# [Név]
+# Varga Norbert
 
 ## Hogyan kezdj neki?
 
